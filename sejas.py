@@ -74,7 +74,7 @@ def hero():
         system(banner)
         print("Contact me on telegram @COOE_HACKING")
         print("FAST PARITY HACK")
-        print("Enter" ,newperiod,"Price :")
+        print("Enter Last 2 Digit Of" ,newperiod,"Price :")
         current=input()
         current=int(current)
         chalo()
@@ -153,12 +153,12 @@ if(expirydate>today):
     elif(now>Third and now<Thirdend):
             period=0
             hero()
-    elif(now>Final and now<Finalend):
-            period=0
-            hero()
-    elif(now>FFinal and now<FFinalend):
-            period=0
-            hero()
+    #elif(now>Final and now<Finalend):
+            #period=0
+            #hero()
+    #elif(now>FFinal and now<FFinalend):
+            #period=0
+            #hero()
     else:
         banner='figlet fieWin '
         print("Hi!! Thanks for buying the hack")
